@@ -1,0 +1,8 @@
+.Chessboard {
+  height: 500px;
+  width: 500px;
+  border-width: 1px;
+  border-color: black;
+  border-style: dashed;
+  justify-content: center;
+}

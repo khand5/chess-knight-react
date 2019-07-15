@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Chessboard from "./components/Chessboard/Chessboard";
 
 const App: React.FC = () => {
   return (
@@ -11,9 +12,8 @@ const App: React.FC = () => {
       </header>
 
       <body className="App-body">
-        <p>This is the body area.</p>
         <div className="App-body-content">
-          <p>This is the app content area.</p>
+          <Chessboard />
         </div>
       </body>
 

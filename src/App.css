@@ -19,11 +19,11 @@ html {
   display: flex;
   flex-direction: column;
   background-color: white;
+  align-items: center;
 }
 
 .App-body-content {
-  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  height: 70vh;
+  margin: 20px;
 }
 
 .App-footer {
