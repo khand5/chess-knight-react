@@ -1,0 +1,9 @@
+.Footer {
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.Footer-item {
+  text-align: left;
+  margin: 0em;
+}
