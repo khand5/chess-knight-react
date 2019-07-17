@@ -1,5 +1,32 @@
+.Clock-container {
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: #df8c2f;
+  color: rgb(0, 0, 0);
+  background: #f9caad;
+  background-size: 100%;
+  height: 4em;
+  width: 10em;
+}
+
 .Clock {
-  border-color: black;
-  border-width: 1px;
-  border-style: dashed;
+  font-family: "Share Tech Mono", monospace;
+  color: #000000;
+  text-align: center;
+  padding: 0.5em;
+}
+.Clock-time {
+  letter-spacing: 0.05em;
+  font-size: 1em;
+  margin: 0;
+}
+.Clock-date {
+  letter-spacing: 0.1em;
+  font-size: 1em;
+  margin: 0;
+}
+.Clock-text {
+  letter-spacing: 0.1em;
+  font-size: 1em;
+  margin: 0;
 }

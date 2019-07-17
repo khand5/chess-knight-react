@@ -3,8 +3,12 @@ import "./Clock.css";
 
 const Clock: React.FC = () => {
   return (
-    <div className="Clock">
-      <p>This is a Clock</p>
+    <div className="Clock-container">
+      <div className="Clock">
+        <p className="Clock-date">Date</p>
+        <p className="Clock-time">Time</p>
+        <p className="Clock-text">Comment</p>
+      </div>
     </div>
   );
 };

@@ -15,6 +15,7 @@ const App: React.FC = () => {
       <body className="App-body">
         <div className="App-body-content">
           <Clock />
+          <p>Empty Space</p>
           <Chessboard />
         </div>
       </body>
