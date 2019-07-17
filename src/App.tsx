@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Clock from "./components/Clock/Clock";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Chessboard from "./components/Chessboard/Chessboard";
@@ -13,6 +14,7 @@ const App: React.FC = () => {
 
       <body className="App-body">
         <div className="App-body-content">
+          <Clock />
           <Chessboard />
         </div>
       </body>
